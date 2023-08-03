@@ -1,0 +1,120 @@
+/* Pc */
+@media (min-width: 1024px) {
+    
+}
+
+/* Tablet and mobile */
+@media (max-width: 1023px) {
+    .footer__icon{
+        font-size: 38px;
+    }
+
+    .footer__icon i{
+        margin: 0 6px;
+    } 
+
+    .footer__descr{
+        font-size: 24px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .place__buy__ticket{
+        padding: 12px 20px;
+    }
+    .form__reply .form__send{
+        padding: 12px 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #header{
+        overflow: hidden;
+    }
+
+    #header .menu-mobile-btn{
+        display: block;
+    }
+
+    .nav > li{
+        display: block;
+    }
+
+    .nav .subnav{
+        position: initial;
+        /* bỏ absolute luôn */
+        background-color: #333;
+    }
+
+    .nav .subnav a{
+        color: #fff;
+        padding: 4px 41px;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    .content__section .content__section__items{
+        display: block;
+        text-align: center;
+    }
+
+    .content__section__member .member__img{
+        width: 60%;
+    }
+
+    .content__section__member .member__name{
+        font-size: 18px;
+    }
+
+    .section__place .place__item {
+        float: none;
+        width: 100%;
+    }
+
+    .place__body img {
+        height: 100%;
+    }
+
+    .place__content .place__buy__ticket {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .section__contact {
+        display: block;
+    }
+
+    .contact__form {
+        margin: 16px 0;
+        padding: 24px 0;
+    }
+
+    .contact__form .form__infor {
+        display: block;
+    }
+    
+    .form__infor .form__name {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .form__infor .form-control {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .form__reply .form-control-mess {
+        padding: 12px;
+        margin-top: 8px;
+    }
+
+    .form__reply .form__send {
+        width: 100%;
+        padding: 13px 0;
+    }
+}
